@@ -115,12 +115,11 @@ public class consultaEstadoFirma {
         }
 
         // Ingresar solicitudId manualmente
-        String solicitudId = "MMKfbj6fcE-20241007"; // Cambia este valor según sea necesario
+        String solicitudId = "MMKfbj6fcE-20241007"; // Deben cambiar este valor según sea necesario
 
         // Actualizar el archivo JSON con el nuevo solicitudId
         actualizarSolicitudIdEnJson(solicitudId);
 
-        // Mensaje antes de empezar la consulta de la firma del documento
         System.out.println("=======================================");
         System.out.println("||                                   ||");
         System.out.println("||    Iniciando consulta de firma    ||");

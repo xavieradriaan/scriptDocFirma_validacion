@@ -42,8 +42,8 @@ public class FlujoCompleto {
         }
     }
 
-    private String generarSolicitud(String token) { // Generar la solicitud, 2 PASO ESTO DEBES MODIFICAR SEGUN CACHE
-                                                    // FLUJO
+    private String generarSolicitud(String token) { // Generar la solicitud, 2 PASO ESTO DEBEN MODIFICAR SEGUN
+                                                    // CACHE-FLUJO
         try {
             System.out.println("===============================");
             System.out.println("||                           ||");
@@ -162,12 +162,12 @@ public class FlujoCompleto {
 
     private void consultarFirmaDocumento(String token, String solicitudId) { // Consultar Firma de los documentos 5 PASO
         try {
-            System.out.println("=======================================");
-            System.out.println("||                                   ||");
-            System.out.println("||          Consultando la           ||");
-            System.out.println("||          firma del Documento...   ||");
-            System.out.println("||                                   ||");
-            System.out.println("=======================================");
+            System.out.println("======================================");
+            System.out.println("||                                  ||");
+            System.out.println("||         Consultando la           ||");
+            System.out.println("||       firma del Documento...     ||");
+            System.out.println("||                                  ||");
+            System.out.println("======================================");
             String requestBody = "{\n" +
                     "    \"solicitudId\": \"" + solicitudId + "\"\n" +
                     "}";
